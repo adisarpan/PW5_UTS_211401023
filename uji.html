@@ -1,0 +1,1187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- LInk css-->
+    <link rel="stylesheet" href="uji.css">
+
+
+    <title>UTS Semester 3</title>
+  </head>
+  <body>
+
+    <!--Menampilkan Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+      <div class="container">
+
+        <h3><i class="fa fa-cart-plus mr-2"></i></h3>
+
+  <a class="navbar-brand font-weight-bold" href="#">MY SHOP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto mr-4">
+      <li class="nav-item active">
+        <a class="nav-link font-weight-bold" href="#">Beranda<span class="sr-only">(current)</span></a>
+      </li>
+     
+     <li class="nav-item active">
+        <a class="nav-link font-weight-bold" href="#">Reseller<span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link font-weight-bold" href="#">Hubungi kami<span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link font-weight-bold" href="#">Bantuan<span class="sr-only">(current)</span></a>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-warning text-white" type="submit">Search</button>
+    </form>
+
+    <!--Menambahkan Icon Pesan, Bell dan Keranjang-->
+    <div class="icon mt-2">
+      <h5>
+        <i class="fa fa-cart-plus ml-3 mr-3 "data-toggle ="tooltip" title="Keranjang Belanja"></i>
+        <i class="fa fa-envelope mr-3" data-toggle="tooltip" title="Surat Masuk"></i>
+        <i class="fa fa-bell mr-3"data-toggle="tooltip" title="Notifikasi"></i></i>
+      </h5>
+    </div>
+  </div>
+  </div>
+</nav>
+
+
+<!---untuk kategori-->
+
+<div class="row mt-5 no-gutters">
+  <div class="col-md-2 bg-light">
+  <ul class="list-group list-group-flush p-2 pt-4">
+    <li class="list-group-item bg-primary "><i class="fa fa-list" aria-hidden="true"></i>KATEGORI PRODUK</li>
+    <li class="list-group-item bg-primary "><i class="fa fa-angle-right"></i> Peralatan Elektronik</li>
+    <li class="list-group-item bg-primary "><i class="fa fa-angle-right"></i> Aksesoris Elektronik</li>
+    <li class="list-group-item bg-primary "><i class="fa fa-angle-right"></i> Fashion Pria</li>
+    <li class="list-group-item bg-primary "><i class="fa fa-angle-right"></i> Fashion Wanita</li>
+    <li class="list-group-item bg-primary "><i class="fa fa-angle-right"></i> Fashion Anak</li>
+    <li class="list-group-item bg-primary "><i class="fa fa-angle-right"></i> Otomotif</li>
+    <li class="list-group-item bg-primary "><i class="fa fa-angle-right"></i> Hobby & Olahraga</li>
+</ul>
+  </div>
+
+
+  <!--untuk carosel-->
+
+  <div class="col-md-10">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+         <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="slide1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="slide2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="slide3.jpg" class="d-block w-100" alt="...">
+        </div>
+         
+      </div>
+     <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+
+    <!-- judul terbaru-->
+    <h4 class="text-center font-weight-bold m-4">PRODUK TERBARU</h4>
+
+    <!-- Produk Yang di Tawarkan baris pertama-->
+    <div class="row mx-auto">
+        <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="headphone.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Headphone</h5>
+              <p class="card-text">Headphone wireless Gratis ongkir</p>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star-half-o text-warning"></i><br>
+              <a href="#" class="btn btn-primary" data-target="#produk1" data-toggle="modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp. 250.000</a>
+            </div>
+          </div>
+
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="laptop.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Laptop</h5>
+              <p class="card-text">Apple Macbook Air M1 2020 512 GB Perak</p>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star-half-o text-warning"></i><br>
+              <a href="#" class="btn btn-primary" data-target="#produk2"data-toggle = "modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp. 19.145.000</a>
+            </div>
+          </div>
+
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="kamera.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Camera</h5>
+              <p class="card-text">Digital Single-Lens Reflex (DSLR)</p>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star-half-o text-warning"></i><br>
+              <a href="#" class="btn btn-primary" data-target="#produk3"data-toggle = "modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp. 4.800.000</a>
+            </div>
+          </div>
+
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="sdcard.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Sdcard</h5>
+              <p class="card-text">SanDisk Ultra 128 GB Gratis Ongkir</p>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star-half-o text-warning"></i><br>
+              <a href="#" class="btn btn-primary"data-target="#produk4"data-toggle = "modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp. 150.000</a>
+            </div>
+          </div>
+    </div>
+
+
+    <!--Produk yang di tawarkan baris 2-->
+    <div class="row mx-auto mt-5">
+        <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="speaker.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Speaker</h5>
+              <p class="card-text">Speaker Bluetoot</p>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star-half-o text-warning"></i><br>
+              <a href="#" class="btn btn-primary"data-target="#produk5"data-toggle = "modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp. 80.000</a>
+            </div>
+          </div>
+
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="ssd.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Ssd</h5>
+              <p class="card-text">Ssd 128GB 512GB 1TB</p>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star-half-o text-warning"></i><br>
+              <a href="#" class="btn btn-primary"data-target="#produk6"data-toggle = "modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp. 500.000</a>
+            </div>
+          </div>
+
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="usb.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title">USB Handphon</h5>
+              <p class="card-text">Cable Data Type-C Double</p>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star-half-o text-warning"></i><br>
+              <a href="#" class="btn btn-primary"data-target="#produk7"data-toggle = "modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp. 30.000</a>
+            </div>
+          </div>
+
+          <div class="card mr-2 ml-2" style="width: 16rem;">
+            <img src="jacket.jpg" class="card-img-top" alt="...">
+            <div class="card-body bg-light">
+              <h5 class="card-title">Jacket</h5>
+              <p class="card-text">Jacket Dillanda Kamu nanyak?</p>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i>
+              <i class="fa fa-star text-warning"></i><br>
+              <a href="#" class="btn btn-primary"data-target="#produk8"data-toggle = "modal">Detail</a>
+              <a href="#" class="btn btn-danger">Rp. 250.000</a>
+            </div>
+          </div>
+          
+    </div>
+
+      <!-- Produk yang ditawarkan Baris 3-->
+
+    <div class="row mx-auto mt-5">
+      <div class="card mr-2 ml-2" style="width: 16rem;">
+          <img src="joy.webp" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Joystick</h5>
+            <p class="card-text">Joystick PS 5</p>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star-half-o text-warning"></i><br>
+            <a href="#" class="btn btn-primary"data-target="#produk9"data-toggle = "modal">Detail</a>
+            <a href="#" class="btn btn-danger">Rp. 80.000</a>
+          </div>
+        </div>
+
+        <div class="card mr-2 ml-2" style="width: 16rem;">
+          <img src="biru.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Jacket Denim</h5>
+            <p class="card-text">Jaket Kecebadai</p>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star-half-o text-warning"></i><br>
+            <a href="#" class="btn btn-primary"data-target="#produk10"data-toggle = "modal">Detail</a>
+            <a href="#" class="btn btn-danger">Rp. 500.000</a>
+          </div>
+        </div>
+
+        <div class="card mr-2 ml-2" style="width: 16rem;">
+          <img src="sepatu.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Sepatu</h5>
+            <p class="card-text">Snaker Nike</p>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star-half-o text-warning"></i><br>
+            <a href="#" class="btn btn-primary"data-target="#produk11"data-toggle = "modal">Detail</a>
+            <a href="#" class="btn btn-danger">Rp. 30.000</a>
+          </div>
+        </div>
+
+        <div class="card mr-2 ml-2" style="width: 16rem;">
+          <img src="rmh.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-light">
+            <h5 class="card-title">Blander, pembuat Kopi</h5>
+            <p class="card-text">Blander murah meriah</p>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i>
+            <i class="fa fa-star text-warning"></i><br>
+            <a href="#" class="btn btn-primary"data-target="#produk12"data-toggle = "modal">Detail</a>
+            <a href="#" class="btn btn-danger">Rp. 250.000</a>
+          </div>
+        </div>
+
+        
+
+        
+  </div>
+
+
+    <!-- memasukkan detail pada produk-->
+
+    <div class="modal fade" id="produk1" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role = "document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            
+            <div class="modal-body">
+              <div class="row">
+
+                <div class="col-md-6">
+                    <img src="headphone.jpg ">
+                </div>
+                <div class="col-md-6">
+                    <table class="table table-borderless">
+                        <tr>
+                        <th>Nama Produk</th>
+                        <td>Headphone</td>
+                        </tr>
+
+                        <tr>
+                            <th>Merk/Type</th>
+                            <td>Boss/6B</td>
+                        </tr>
+                            <tr>
+                                <th>Biaya Ongkir</th>
+                                <td>Gratis</td>
+                            </tr>
+
+                            <tr>
+                                <th>Ratting Produk</th>
+                                <td>
+                                    <p class="card-text">Headphone wireless Gratis ongkir</p>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star text-warning"></i>
+                                    <i class="fa fa-star-half-o text-warning"></i><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Stok Produk</th>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <th>Harga</th>
+                                <td>Rp. 250.000</td>
+                            </tr>
+
+                    </table>
+                </div>
+              </div>
+
+              
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">BELI</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Detail Produk Laptop-->
+
+    <div class="modal fade" id="produk2" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role = "document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          
+          <div class="modal-body">
+            <div class="row">
+
+              <div class="col-md-6">
+                  <img src="laptop.jpg">
+              </div>
+              <div class="col-md-6">
+                  <table class="table table-borderless">
+                      <tr>
+                      <th>Nama Produk</th>
+                      <td>Laptop</td>
+                      </tr>
+
+                      <tr>
+                          <th>Merk/Type</th>
+                          <td>Apple</td>
+                      </tr>
+                          <tr>
+                              <th>Biaya Ongkir</th>
+                              <td>Standar</td>
+                          </tr>
+
+                          <tr>
+                              <th>Ratting Produk</th>
+                              <td>
+                                  <p class="card-text">Apple Macbook Air M1 2020 512 GB Perak</p>
+                                  <i class="fa fa-star text-warning"></i>
+                                  <i class="fa fa-star text-warning"></i>
+                                  <i class="fa fa-star text-warning"></i>
+                                  <i class="fa fa-star text-warning"></i>
+                                  <i class="fa fa-star-half-o text-warning"></i><br>
+                              </td>
+                          </tr>
+                          <tr>
+                              <th>Stok Produk</th>
+                              <td>200</td>
+                          </tr>
+                          <tr>
+                              <th>Harga</th>
+                              <td>Rp. 19.145.000</td>
+                          </tr>
+                  </table>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">BELI</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Detail Produk Kamera-->
+    
+    <div class="modal fade" id="produk3" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role = "document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          
+          <div class="modal-body">
+            <div class="row">
+
+              <div class="col-md-6">
+                  <img src="kamera.jpg">
+              </div>
+              <div class="col-md-6">
+                  <table class="table table-borderless">
+                      <tr>
+                      <th>Nama Produk</th>
+                      <td>Camera</td>
+                      </tr>
+
+                      <tr>
+                          <th>Merk/Type</th>
+                          <td>Cannon</td>
+                      </tr>
+                          <tr>
+                              <th>Biaya Ongkir</th>
+                              <td>Standar</td>
+                          </tr>
+
+                          <tr>
+                              <th>Ratting Produk</th>
+                              <td>
+                                  <p class="card-text">Digital Single-Lens Reflex (DSLR)</p>
+                                  <i class="fa fa-star text-warning"></i>
+                                  <i class="fa fa-star text-warning"></i>
+                                  <i class="fa fa-star text-warning"></i>
+                                  <i class="fa fa-star text-warning"></i>
+                                  <i class="fa fa-star-half-o text-warning"></i><br>
+                              </td>
+                          </tr>
+                          <tr>
+                              <th>Stok Produk</th>
+                              <td>70</td>
+                          </tr>
+                          <tr>
+                              <th>Harga</th>
+                              <td>Rp. 4.800.000</td>
+                          </tr>
+                  </table>
+              </div>
+            </div>
+
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">BELI</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Detail Produk Sdcard-->
+    
+<div class="modal fade" id="produk4" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role = "document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row">
+
+          <div class="col-md-6">
+              <img src="sdcard.jpg">
+          </div>
+          <div class="col-md-6">
+              <table class="table table-borderless">
+                  <tr>
+                  <th>Nama Produk</th>
+                  <td>SanDisk Ultra</td>
+                  </tr>
+
+                  <tr>
+                      <th>Merk/Type</th>
+                      <td>XC</td>
+                  </tr>
+                      <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Gratis</td>
+                      </tr>
+
+                      <tr>
+                          <th>Ratting Produk</th>
+                          <td>
+                              <p class="card-text">SanDisk Ultra 128 GB Gratis Ongkir</p>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star-half-o text-warning"></i><br>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Stok Produk</th>
+                          <td>200</td>
+                      </tr>
+                      <tr>
+                          <th>Harga</th>
+                          <td>Rp. 150.000</td>
+                      </tr>
+              </table>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail Produk Speaker-->
+
+<div class="modal fade" id="produk5" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role = "document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row">
+
+          <div class="col-md-6">
+              <img src="speaker.jpg">
+          </div>
+          <div class="col-md-6">
+              <table class="table table-borderless">
+                  <tr>
+                  <th>Nama Produk</th>
+                  <td>Speaker</td>
+                  </tr>
+
+                  <tr>
+                      <th>Merk/Type</th>
+                      <td>Sonos</td>
+                  </tr>
+                      <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Gratis</td>
+                      </tr>
+
+                      <tr>
+                          <th>Ratting Produk</th>
+                          <td>
+                              <p class="card-text">Speaker Bluetoot</p>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star-half-o text-warning"></i><br>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Stok Produk</th>
+                          <td>30</td>
+                      </tr>
+                      <tr>
+                          <th>Harga</th>
+                          <td>Rp. 80.000</td>
+                      </tr>
+              </table>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail Produk SSD-->
+
+<div class="modal fade" id="produk6" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role = "document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row">
+
+          <div class="col-md-6">
+              <img src="ssd.jpg">
+          </div>
+          <div class="col-md-6">
+              <table class="table table-borderless">
+                  <tr>
+                  <th>Nama Produk</th>
+                  <td>SSD</td>
+                  </tr>
+
+                  <tr>
+                      <th>Merk/Type</th>
+                      <td>Samsung</td>
+                  </tr>
+                      <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Standar</td>
+                      </tr>
+
+                      <tr>
+                          <th>Ratting Produk</th>
+                          <td>
+                              <p class="card-text">Ssd 128GB 512GB 1TB</p>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star-half-o text-warning"></i><br>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Stok Produk</th>
+                          <td>50</td>
+                      </tr>
+                      <tr>
+                          <th>Harga</th>
+                          <td>Rp. 500.000</td>
+                      </tr>
+              </table>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail Produk USB Handphone-->
+
+<div class="modal fade" id="produk7" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role = "document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row">
+
+          <div class="col-md-6">
+              <img src="usb.jpg">
+          </div>
+          <div class="col-md-6">
+              <table class="table table-borderless">
+                  <tr>
+                  <th>Nama Produk</th>
+                  <td>USB Handphone</td>
+                  </tr>
+
+                  <tr>
+                      <th>Merk/Type</th>
+                      <td>Amazonbasic</td>
+                  </tr>
+                      <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Standar</td>
+                      </tr>
+
+                      <tr>
+                          <th>Ratting Produk</th>
+                          <td>
+                              <p class="card-text">Cable Data Type-C Double</p>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star-half-o text-warning"></i><br>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Stok Produk</th>
+                          <td>75</td>
+                      </tr>
+                      <tr>
+                          <th>Harga</th>
+                          <td>Rp. 30.000</td>
+                      </tr>
+              </table>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Data Produk Jaket-->
+
+<div class="modal fade" id="produk8" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role = "document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row">
+
+          <div class="col-md-6">
+              <img src="jacket.jpg">
+          </div>
+          <div class="col-md-6">
+              <table class="table table-borderless">
+                  <tr>
+                  <th>Nama Produk</th>
+                  <td>Jacket</td>
+                  </tr>
+
+                  <tr>
+                      <th>Merk/Type</th>
+                      <td>Dillanda</td>
+                  </tr>
+                      <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Standar</td>
+                      </tr>
+
+                      <tr>
+                          <th>Ratting Produk</th>
+                          <td>
+                              <p class="card-text">Jacket Dillanda Kamu Nanyak</p>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star-half-o text-warning"></i><br>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Stok Produk</th>
+                          <td>50</td>
+                      </tr>
+                      <tr>
+                          <th>Harga</th>
+                          <td>Rp. 250.000</td>
+                      </tr>
+              </table>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail Produk Joystick-->
+
+<div class="modal fade" id="produk9" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role = "document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row">
+
+          <div class="col-md-6">
+              <img src="joy.webp" style="width:400px ; height: 300px ;">
+          </div>
+          <div class="col-md-6">
+              <table class="table table-borderless">
+                  <tr>
+                  <th>Nama Produk</th>
+                  <td>Joystick</td>
+                  </tr>
+
+                  <tr>
+                      <th>Merk/Type</th>
+                      <td>PS5</td>
+                  </tr>
+                      <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Standar</td>
+                      </tr>
+
+                      <tr>
+                          <th>Ratting Produk</th>
+                          <td>
+                              <p class="card-text">Joystick PlayStation 5</p>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star-half-o text-warning"></i><br>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Stok Produk</th>
+                          <td>100</td>
+                      </tr>
+                      <tr>
+                          <th>Harga</th>
+                          <td>Rp. 150.000</td>
+                      </tr>
+
+              </table>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail Produk Jacket Denim-->
+
+<div class="modal fade" id="produk10" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role = "document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row">
+
+          <div class="col-md-6 font-center">
+              <img src="biru.jpg" style="width:400px ; height :300px ;">
+          </div>
+          <div class="col-md-6">
+              <table class="table table-borderless">
+                  <tr>
+                  <th>Nama Produk</th>
+                  <td>Jacket Denim</td>
+                  </tr>
+
+                  <tr>
+                      <th>Merk/Type</th>
+                      <td>Siuuuuu</td>
+                  </tr>
+                      <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Standar</td>
+                      </tr>
+
+                      <tr>
+                          <th>Ratting Produk</th>
+                          <td>
+                              <p class="card-text">Jacket Kecebadai</p>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star-half-o text-warning"></i><br>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Stok Produk</th>
+                          <td>80</td>
+                      </tr>
+                      <tr>
+                          <th>Harga</th>
+                          <td>Rp. 250.000</td>
+                      </tr>
+
+              </table>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail Produk Sepatu-->
+
+<div class="modal fade" id="produk11" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role = "document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row">
+
+          <div class="col-md-6 font-center">
+              <img src="sepatu.jpg" style="width:400px ; height :300px ; ">
+          </div> 
+          <div class="col-md-6">
+              <table class="table table-borderless">
+                  <tr>
+                  <th>Nama Produk</th>
+                  <td>Snaker</td>
+                  </tr>
+
+                  <tr>
+                      <th>Merk/Type</th>
+                      <td>Nike</td>
+                  </tr>
+                      <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Standar</td>
+                      </tr>
+
+                      <tr>
+                          <th>Ratting Produk</th>
+                          <td>
+                              <p class="card-text">Snaker Nike</p>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star-half-o text-warning"></i><br>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Stok Produk</th>
+                          <td>80</td>
+                      </tr>
+                      <tr>
+                          <th>Harga</th>
+                          <td>Rp. 250.000</td>
+                      </tr>
+
+              </table>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Detail Produk Blander-->
+
+<div class="modal fade" id="produk12" tabindex="-1" role = "dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role = "document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail Produk</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row">
+
+          <div class="col-md-6 font-center">
+              <img src="rmh.jpg" style="width:400px ; height :300px ; ">
+          </div> 
+          <div class="col-md-6">
+              <table class="table table-borderless">
+                  <tr>
+                  <th>Nama Produk</th>
+                  <td>Blandr  & Pembuat Kopi</td>
+                  </tr>
+
+                  <tr>
+                      <th>Merk/Type</th>
+                      <td>Ahhoooi</td>
+                  </tr>
+                      <tr>
+                          <th>Biaya Ongkir</th>
+                          <td>Standar</td>
+                      </tr>
+
+                      <tr>
+                          <th>Ratting Produk</th>
+                          <td>
+                              <p class="card-text">Blander & Pembuat kopi yang murah dan higenis</p>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star text-warning"></i>
+                              <i class="fa fa-star-half-o text-warning"></i><br>
+                          </td>
+                      </tr>
+                      <tr>
+                          <th>Stok Produk</th>
+                          <td>80</td>
+                      </tr>
+                      <tr>
+                          <th>Harga</th>
+                          <td>Rp. 250.000</td>
+                      </tr>
+
+              </table>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  </div>
+</div>
+
+
+
+
+<footer class="bg-dark text-white p-5">
+    <div class="row">
+        <div class="col-md-3">
+            <h5>LAYANAN PELANGGAN</h5>
+            <ul>
+                <li>Pusat Bantuan</li>
+                <li>Cara Pemberian</li>
+                <li>Pengiriman</li>
+                <li>Cara Pengembalian</li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h5>TENTANG KAMI</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores soluta odit quasi nostrum ex placeat voluptatibus fuga, aliquam animi, quo voluptas officiis! Quasi quisquam quia labore quos veritatis reiciendis voluptatem?</p>
+        </div>
+        <div class="col-md-3">
+        <h5>MITRA KEJASAMA</h5>
+        <ul>
+            <li>POS INDONESIA</li>
+            <li>JNE</li>
+            <li>NINJA</li>
+            <li>GOJEK</li>
+        </ul>
+        </div>
+
+        <div class="col-md-3">
+            <h5>HUBUNGI KAMI</h5>
+            <ul>
+                <li>0811 2233 4455</li>
+                <li>mystoreapaajaada@myshop.com</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<div class="copyright text-center text-white font-weight-bold bg-primary p-2">
+    <p>Develove by Adi Sarpan Alahut Harahap <i class="far fa-copyright"></i>2022</p>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+    <script type="text/javascript" scr="uji.js"></script>
+  </body>
+</html>
